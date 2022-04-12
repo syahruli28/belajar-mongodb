@@ -1,0 +1,7 @@
+menampilkan list database : show database
+untuk membuat(jika tidak ada) atau menampilkan/masuk ke suatu database : use nama_dbnya
+untuk membuat collection(tabel) dalam database : db.createCollection('nama_collectionya')
+untuk menampilkan tabel pada suatu database : show collection
+untuk memasukan data ke collection (satu data) : db.nama_collectionya.insertOne({objectnya})
+untuk menampilkan data dalam collection : db.nama_collectionya.find()
+untuk memasukan data ke collection (banyak data) : db.nama_collectionya.insertMany([{objectnya},{object},dst])
